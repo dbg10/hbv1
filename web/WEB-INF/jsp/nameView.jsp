@@ -1,7 +1,9 @@
 <%--
-    Document   : nameView
-    Created on : May 2, 2010, 2:06:51 PM
-    Author     : nbuser
+View í MVC módelinu sem birtir forsíðu til notanda
+
+    Document   : helloView
+    Created on : 6. September 2017
+    Author     : Viktor Jón Helgason
 --%>
 
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>

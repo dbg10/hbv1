@@ -1,7 +1,9 @@
 <%--
+View í MVC módelinu sem birtir Halló Nafn til notanda
+
     Document   : helloView
-    Created on : May 2, 2010, 2:06:25 PM
-    Author     : nbuser
+    Created on : 6. September 2017
+    Author     : Viktor Jón Helgason
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
