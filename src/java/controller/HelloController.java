@@ -32,7 +32,8 @@ public class HelloController extends SimpleFormController {
     protected ModelAndView onSubmit(Object command) throws Exception {
         Name name = (Name) command;
         ModelAndView mv = new ModelAndView(getSuccessView());
-        mv.addObject("helloMessage", helloService.sayHello(name.getValue()));
+        
+        mv.addObject("helloMessage", helloService.sayHello(name.getValue(), name.getPass()));
         return mv;
     }
 }

@@ -7,6 +7,15 @@ package controller;
 public class Name {
 
     private String value;
+    private String pass;
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
 
     public String getValue() {
         return value;
